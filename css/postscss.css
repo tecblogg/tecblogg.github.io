@@ -1,0 +1,28 @@
+a{
+  text-decoration: none;
+  color: aliceblue;
+font-weight: 600;  
+padding-right: 0.625em;
+text-transform: capitalize;
+
+}
+
+a:hover {
+  color: chartreuse;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+ a :visited {
+  color: chartreuse;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h1{color: chartreuse;
+
+}
+
+ul{
+  color: aliceblue;
+}

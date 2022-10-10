@@ -1,0 +1,116 @@
+  
+  
+body{
+    background-image: url(../imagenes/coding2022Python.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ font-family: sans-serif;
+ margin: 0;
+}
+ /*estilo de los links del header*/
+
+ a:link, a:visited {
+  background-color: black;
+  color: white;
+  border: 2px solid chartreuse;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: chartreuse;
+  color: white;
+}
+
+ 
+
+/*logo*/
+
+header{
+  
+  position: sticky;
+  top: 0;
+  display: flex;  
+  height: 4.375em;
+  justify-content: space-between;
+  padding: 1.25em;
+  
+}
+/*responsive desing de la pagina*/
+
+.titulonoticia{
+
+  width:  100%;
+  max-width: 62.5em;
+  overflow: hidden;
+  margin: 0 auto;
+  font-size: 3em;
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+}
+.contenedor{
+  width: 90%;
+  max-width: 62.5em;
+  margin: 0 auto;
+  overflow: hidden;
+
+
+
+}
+
+.main{
+  width: 80%;
+  max-width: 62.5em;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.img1 {
+  width: 90%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.img2 {
+  width: 90%;
+  max-width: 450px;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+/*logo*/
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  height: 13.75em;
+  animation: alternate;
+  
+}
+
+h2{
+  color: aliceblue;
+  font-family: sans-serif;
+  padding: auto;
+  font-size: 100%;
+  
+  
+}
+
+
+p{
+  font-family: sans-serif;
+  padding: auto; 
+  font-size: 90%;
+  
+}
+
